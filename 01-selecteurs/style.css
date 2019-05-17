@@ -1,4 +1,14 @@
-/* sélecteur simple
+
+/* pour définir la taille en rem*/
+html {
+  font-size: 62.5%; 
+}
+/*pour définir la taille en rem*/
+body{
+  font-size:  1.6rem; 
+}
+
+/*sélecteur simple
 header {
   font-size: 2em;
 }
