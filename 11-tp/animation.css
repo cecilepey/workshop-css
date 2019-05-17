@@ -1,0 +1,25 @@
+@keyframes animation{
+    from {transform : rotateZ(90deg); margin-top: 0px; margin-left: 0px;}
+    to{transform : rotateZ(360deg); margin-top: 500px; margin-left: 500px;
+    }
+}
+
+#carre{
+    width: 200px; 
+    height: 200px; 
+    background:red; 
+    animation-name: animation; 
+    animation-duration: 2s; 
+    animation-iteration-count: infinite; 
+
+
+}
+
+#carre:hover{
+
+    width: 300px; 
+    height: 200px;
+    background: blue; 
+    transition : 1s; 
+}
+
